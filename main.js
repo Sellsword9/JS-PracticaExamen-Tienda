@@ -14,7 +14,8 @@ mainContainer.addEventListener("click", async (e) => {
       headers: {
         "Content-Type": "application/json"
       },
-      body: `${data}`
-    })
+      body: JSON.stringify(data, null, 2)
+    }
+    )
   }
 })
