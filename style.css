@@ -8,6 +8,7 @@ body {
   background-color: #2d2013;
   height: 100%;
 }
+
 /* Estilos para el navbar */
 .navbar {
   height: 120px;
@@ -15,6 +16,7 @@ body {
     sans-serif;
   font-size: large;
 }
+
 .navbar h1 {
   color: wheat;
 }
@@ -24,18 +26,24 @@ body {
   background-color: #23180d;
   height: 74px;
   margin-top: 20px;
-  padding: 20px; /* Ajusta el espacio interno del footer según tus preferencias */
+  padding: 20px;
+  /* Ajusta el espacio interno del footer según tus preferencias */
 }
+
 .footer p {
   color: white;
 }
 
 .footer-text {
-  display: inline-block; /* Para que el texto no ocupe toda la línea */
+  display: inline-block;
+  /* Para que el texto no ocupe toda la línea */
 }
+
 .footer img {
-  vertical-align: middle; /* Alineación vertical del ícono */
-  margin-left: 10px; /* Espacio entre el texto y la imagen, ajusta según prefieras */
+  vertical-align: middle;
+  /* Alineación vertical del ícono */
+  margin-left: 10px;
+  /* Espacio entre el texto y la imagen, ajusta según prefieras */
 }
 
 /* Estilos para Foods y Order */
@@ -49,28 +57,41 @@ body {
   background-color: #23180d;
   height: 100%;
 }
+
 .order h2 {
   text-align: center;
   color: wheat;
 }
+
 /* Estilos para las Cards */
 .cards .card {
   width: 100%;
   margin-bottom: 20px;
 }
+
 .cards .card img {
   width: 100%;
   height: auto;
 }
+
 .cards .card .card-body {
   color: white;
 }
+
 .cards .card .card-title {
   color: rgb(245, 158, 44);
 }
+
 .cards .card .card-text {
   color: rgb(54, 44, 44);
 }
+
 .cards .card .card-link {
   color: #d67f21;
+}
+
+#reset {
+  &:hover {
+    cursor: pointer;
+  }
 }

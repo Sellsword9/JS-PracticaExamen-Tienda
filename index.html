@@ -12,7 +12,7 @@
 <body>
   <!-- Zona Nav -->
   <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" id="reset-btn">
       <img src="https://www.themealdb.com/images/meal-icon.png" alt="imagen
         Logo" width="100px" height="100px" />
     </a>
@@ -24,8 +24,8 @@
     <!-- Div Center con input y botón -->
     <div class="row">
       <div class="col-md-8 d-flex justify-content-between align-items-center">
-        <input type="text" class="form-control me-4" placeholder="Buscar por nombre/categoria" />
-        <button class="btn btn-primary">Buscar</button>
+        <input id="buscar-input" type="text" class="form-control me-4" placeholder="Buscar por nombre/categoria" />
+        <button id="buscar-btn" class="btn btn-primary">Buscar</button>
       </div>
     </div>
   </div>
@@ -57,7 +57,7 @@
         </div>
       </div>
       <!-- Div Order -->
-      <div class="col-md-4 order">
+      <div id="order-container" class="col-md-4 order">
         <h2>Order Foods</h2>
       </div>
     </div>
